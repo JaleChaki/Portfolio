@@ -1,7 +1,7 @@
 body {
 	margin: 20px;
 	min-width: 1000px;
-	font-family: "Arial", sans-serif;
+	font-family: "Space Grotesk", sans-serif;
 	font-size: 15px;
 	background-image: url("img/bg1.jpg");
 	background-repeat: no-repeat;
@@ -17,10 +17,10 @@ header {
 	text-align: right;
 }
 
-header a {
+a {
 	margin-right: 20px;
 	color: rgb(255, 255, 255);
-	text-decoration: none;
+	#text-decoration: none;
 }
 
 .name-container {
@@ -44,4 +44,10 @@ h2 {
 	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
+}
+
+.floxx {
+	margin: 0 auto;
+	display: flex;
+	float: right;
 }
